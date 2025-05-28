@@ -1,0 +1,10 @@
+Metric,Our System,Fehrman et al. (2017),Wang et al. (2018),Petersen et al. (2023)
+Overall Accuracy,80.2%,84.5%,82.1%,89.1%
+Precision,0.79,0.83,0.80,0.87
+Recall,0.81,0.82,0.79,0.86
+F1 Score,0.78,0.81,0.79,0.85
+Substances Covered,5,18,7,10
+Risk Categories,3 levels,Binary,Binary,3 levels
+Data Persistence,Yes,No,No,Limited
+User Interface,Comprehensive,None,Limited,Moderate
+Feature Explainability,High,Low,Moderate,High
