@@ -62,18 +62,33 @@ A web-based platform that predicts an individual's risk of consuming substances 
 
 ```  
 drug-consumption-risk-prediction/  
-├── app.py                  # Streamlit application  
-├── models/                 # Trained ML models  
-│   ├── cannabis_model.pkl  
-│   ├── alcohol_model.pkl  
-│   └── ...  
-├── data/                   # Datasets  
-│   ├── raw/  
-│   └── processed/  
-├── notebooks/              # Jupyter notebooks for EDA & training  
-├── config/                 # Database & API configs  
-│   └── db_config.py  
-└── requirements.txt        # Dependencies  
+├── **app.py**                 # Main Streamlit application entry point  
+├── **app_startup.py**         # Initialization scripts (e.g., DB connections)  
+├── **app_startup.log**        # Logs from application startup  
+│  
+├── **data_processor.py**      # Data cleaning/feature engineering  
+├── **model_trainer.py**       # ML model training pipelines  
+├── **ml_models.py**           # Model definitions (Random Forest, XGBoost, etc.)  
+├── **initialize_models.py**   # Loads pretrained models  
+├── **model_initialization.leg** # Legacy model config (if applicable)  
+│  
+├── **databases.py**           # PostgreSQL interaction logic  
+├── **utils.py**               # Helper functions (e.g., logging, calculations)  
+│  
+├── **create_figures.py**      # Generates visualizations (e.g., trait-risk plots)  
+├── **create_tables.py**       # Builds summary tables for analytics  
+│  
+├── **/pretrained_models**     # Saved model binaries (.pkl, .h5, etc.)  
+├── **/project_figures**       # Exported charts (PNG/SVG) for reports  
+├── **/project_tables**        # Exported data tables (CSV/Excel)  
+├── **/attached_assets**       # Miscellaneous files (e.g., icons, docs)  
+│  
+├── **geniu_imights.py**       # [Note: Typo? Likely "genius_insights.py"]  
+├── **generated-icon.png**     # App icon/favicon  
+├── **ppproject.toml**        # Project config (dependencies, metadata)  
+├── **no.keck**               # [Note: Unclear purpose—verify or remove]  
+│  
+└── **Drug_Consumption_Prediction_Project_Report.md**  # Detailed project documentation  
 ```  
 
 ## 🔮 Future Enhancements  
