@@ -1,4 +1,4 @@
-# Drug Consumption Risk Prediction Platform  
+# NueroRisk- Drug Consumption Risk Prediction Platform  
 
 A **web-based AI platform** that predicts an individual’s risk of consuming **Cannabis, Alcohol, Nicotine, Ecstasy, and Mushrooms** using psychological and demographic profiling. Built with **Python, Streamlit, and PostgreSQL**, the system employs **machine learning (Random Forest, XGBoost, Logistic Regression)** to deliver real-time risk assessments with **75-85% accuracy**. Designed for **early intervention**, it helps users and healthcare professionals identify potential substance use risks through **personalized analytics, interactive dashboards, and longitudinal tracking**—bridging the gap between psychological research and actionable prevention strategies.  
 
