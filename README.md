@@ -93,10 +93,3 @@ drug-consumption-risk-prediction/
 │  
 └── **Drug_Consumption_Prediction_Project_Report.md**  # Detailed project documentation  
 ```  
-
-## 🔮 Future Enhancements  
-
-- **Mobile App Integration**  
-- **Wearable Device Compatibility** (e.g., Fitbit, Apple Health)  
-- **Federated Learning** for privacy-preserving predictions  
--  **Multi-language Support**  
